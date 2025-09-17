@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet AI - Crie Receitas com o que Você Já Tem</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <h1 class="hero-title">Crie Receitas com o que Você Já Tem</h1>
+        <p class="hero-subtitle">Nosso chatbot inteligente transforma seus ingredientes em pratos deliciosos.</p>
+        <button id="cta-button" class="cta-button">Começar</button>
+    </header>
+
+    <main id="chatbot-section" class="chatbot-container hidden">
+        <div id="chat-display" class="chat-display">
+            <p class="bot-message">Olá! Quais ingredientes você tem aí? Me diga e eu preparo uma receita para você!</p>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Digite seus ingredientes...">
+            <button id="send-button" class="send-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="send-icon">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
